@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  color: blue;
+}
+
+h1 {
+  background: linear-gradient(to right, lightblue, darkblue);
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+
+nav a {
+  margin-right: 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.intro {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 20px;
+}
