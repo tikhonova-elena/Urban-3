@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Arial&display=swap");
 
 body {
   font-family: Arial, sans-serif;
@@ -41,8 +39,13 @@ nav a:hover {
   text-align: center;
 }
 
+.intro h2 {
+  color: white;
+}
+
 .content {
   background-color: white;
+  text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   padding: 20px;
